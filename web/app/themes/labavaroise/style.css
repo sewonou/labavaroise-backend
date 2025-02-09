@@ -1,0 +1,16 @@
+/*
+Theme Name: La Bavaroise
+Theme URI: https://lapensionbavaroise.com
+Author: Kossivi Lokossou
+Author URI: https://kossivilokossou.co
+Description: La Bavaroise is a lightweight and secure WordPress theme designed exclusively for backend use. It transforms WordPress into a headless CMS, exposing content only through the REST API. Access is restricted via JWT authentication, ensuring secure data retrieval. Ideal for modern web applications, it seamlessly integrates with frontend frameworks like React.js or Next.js. La Bavaroise provides a structured and API-first approach, making it the perfect choice for developers building decoupled web experiences. 🚀
+Version: 1.0.0
+Requires at least: 6.7
+Tested up to: 6.7
+Requires PHP: 8.1
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: labavaroise
+Tags: headless, api-only, jwt-auth, rest-api, secure, backend-only, decoupled, wordpress-api, react, nextjs, authentication, headless-cms, json, cms, custom-endpoints
+*/

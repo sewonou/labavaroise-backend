@@ -116,6 +116,7 @@ Config::define('SECURE_AUTH_SALT', env('SECURE_AUTH_SALT'));
 Config::define('LOGGED_IN_SALT', env('LOGGED_IN_SALT'));
 Config::define('NONCE_SALT', env('NONCE_SALT'));
 
+
 /**
  * Custom Settings
  */
@@ -142,6 +143,11 @@ Config::define('WP_DEBUG_LOG', false);
 Config::define('SCRIPT_DEBUG', false);
 ini_set('display_errors', '0');
 
+/**
+ * Config Jwt auth secret
+ */
+Config::define('JWT_AUTH_SECRET_KEY', env('JWT_AUTH_SECRET_KEY'));
+Config::define('JWT_AUTH_CORS_ENABLE', true);
 /**
  * Allow WordPress to detect HTTPS when used behind a reverse proxy or a load balancer
  * See https://codex.wordpress.org/Function_Reference/is_ssl#Notes
